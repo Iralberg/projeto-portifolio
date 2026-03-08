@@ -100,3 +100,32 @@ div#social a{
 div#social a:hover{
   color: var(--destaque-inverso);
 }
+
+section#detalhes{
+  grid-column: 2;
+  
+}
+article{
+  background-color: var(--fundo-card);
+  margin-bottom: 20px;
+  border-radius: 8px;
+  padding: 20px;
+}
+article h2{
+  color: var(--destaque);
+  margin-bottom: 10px;
+}
+.vidio-container{
+  position: relative;
+  width: 100%;
+  margin: auto;
+  aspect-ratio: 16/9;
+}
+.vidio-container iframe{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 8px;
+}
